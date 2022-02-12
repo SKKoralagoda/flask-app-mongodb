@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}	
+<div class="limiter">
+	<div class="container-login100">
+		<div class="wrap-login100">
+			<div class="login100-pic js-tilt" data-tilt>
+				<img src="/static/images/discharge.png" alt="IMG">
+			</div>
+			
+
+			<form class="login100-form validate-form" method="POST">
+				<span class="login100-form-title">
+					DISCHARGE BATTERY
+				</span>
+
+				<div class="wrap-input100 validate-input">
+					<input class="input100" type="text" name="_id" placeholder="DUID">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<input class="input100" type="text" name="regionid" placeholder="REGIONID">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input">
+					<input class="input100" type="text" name="scadavalue" placeholder="SCADAVALUE">
+					<span class="focus-input100"></span>
+				</div>
+				
+				<div class="container-login100-form-btn">
+					<button type="submit" class="login100-form-btn" style="background:rgb(216, 82, 82)">
+						Discharge
+					</button>
+				</div>
+
+				<div class="text-center p-t-136">
+					<a class="txt2" href="/chargeBattery">
+						CHARGE BATTERY
+						<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+					</a>
+				</div>
+			</form>
+            <br><br>
+		
+			{{data}}
+
+		</div>
+	</div>
+</div>
+{% endblock %}
