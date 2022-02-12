@@ -1,14 +1,13 @@
 # flask-app-mongodb
-THIS IS SAMPLE PYTHON WEB APP DEVELOPED USING FLASK FRAMEWORK WORKS WITH MONGODB
+THIS IS SAMPLE PYTHON WEB APP DEVELOPED USING FLASK FRAMEWORK AND MONGODB
 
-**REQUIREMENTS**
+**Requirements**
   Python 3
   Virualenv
   Mongodb
 
 
 **How to run this application**
-
 1. Download source code & open in Visual Studio Code
 2. Open Terminal & run as following 
    python3 -m venv venv
@@ -22,8 +21,7 @@ THIS IS SAMPLE PYTHON WEB APP DEVELOPED USING FLASK FRAMEWORK WORKS WITH MONGODB
    
 
 
-**SCREENSHOTS OF APPLICATION**
-
+**Screenshots of application**
 CHARGE Battery
 
 <img width="770" alt="Screenshot 2022-02-12 at 12 10 54" src="https://user-images.githubusercontent.com/30314116/153692412-34ea5728-5544-481b-bd7e-0df49ff0e0dc.png">
