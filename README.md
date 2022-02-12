@@ -6,6 +6,7 @@ THIS IS SAMPLE PYTHON WEB APP DEVELOPED USING FLASK FRAMEWORK WORKS WITH MONGODB
   Virualenv
   Mongodb
 
+
 **How to run this application**
 
 1. Download source code & open in Visual Studio Code
@@ -19,8 +20,6 @@ THIS IS SAMPLE PYTHON WEB APP DEVELOPED USING FLASK FRAMEWORK WORKS WITH MONGODB
    Enter DUID, REGIONID and SCADAVALUE
    Discharge or Charge the battery accordingly
    
-**How to run this application**
-
 
 
 **SCREENSHOTS OF APPLICATION**
